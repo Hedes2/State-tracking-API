@@ -32,7 +32,27 @@ A simple ASP.NET Core Web API for defining and tracking workflows with states an
 
 ## Project Structure
 
-- `api/Controllers/WorkflowController.cs` — API controllers
-- `api/Models/` — Data models (State, Action, WorkflowDefinition, WorkflowInstance)
-- `api/Services/` — Business logic
-- `api/Storage/` — In-memory storage implementation
+```
+taskkkk/
+├── api/
+│   ├── Controllers/
+│   │   └── WorkflowController.cs
+│   ├── Models/
+│   │   ├── Action.cs
+│   │   ├── State.cs
+│   │   ├── WorkflowDefinition.cs
+│   │   └── WorkflowInstance.cs
+│   ├── Services/
+│   │   ├── IWorkflowService.cs
+│   │   └── WorkflowService.cs
+│   ├── Storage/
+│   │   └── InMemoryStorage.cs
+│   ├── Properties/
+│   │   └── launchSettings.json
+│   ├── Program.cs
+│   ├── api.csproj
+│   ├── appsettings.json
+│   ├── appsettings.Development.json
+│   └── api.http
+└── README.md
+```
