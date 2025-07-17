@@ -15,3 +15,22 @@ A simple ASP.NET Core Web API for defining and tracking workflows with states an
 1. **Build and Run**
    ```sh
    dotnet run --project api
+   ```
+
+2. **API Documentation**
+   - Visit [http://localhost:5062/swagger](http://localhost:5062/swagger) (default) for interactive API docs.
+
+## API Endpoints
+
+- `POST /api/workflow/definitions` — Create a workflow definition
+- `GET /api/workflow/definitions/{id}` — Get a workflow definition
+- `POST /api/workflow/instances` — Start a workflow instance
+- `POST /api/workflow/instances/{id}/actions/{actionId}` — Execute an action on an instance
+- `GET /api/workflow/instances/{id}` — Get a workflow instance
+
+## Project Structure
+
+- `api/Controllers/WorkflowController.cs` — API controllers
+- `api/Models/` — Data models (State, Action, WorkflowDefinition, WorkflowInstance)
+- `api/Services/` — Business logic
+- `api/Storage/` — In-memory storage implementation
