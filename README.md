@@ -16,7 +16,8 @@ A simple ASP.NET Core Web API for defining and tracking workflows with states an
    ```sh
    git clone https://github.com/Hedes2/State-tracking-API.git
    cd ./State-tracking-API/api/
-   dotnet watch run   ```
+   dotnet watch run
+    ```
 
 2. **API Documentation**
    - Visit [http://localhost:5062/swagger](http://localhost:5062/swagger) (default) for interactive API docs.
