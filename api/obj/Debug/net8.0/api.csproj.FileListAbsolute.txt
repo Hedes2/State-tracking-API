@@ -33,3 +33,4 @@ D:\Download\taskkkk\api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Download\taskkkk\api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\Download\taskkkk\api\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Download\taskkkk\api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Download\taskkkk\api\obj\Debug\net8.0\api.sourcelink.json

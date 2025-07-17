@@ -3,12 +3,12 @@ using api.Services
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+// Adding services to the container
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 
-// Register in-memory storage and services
+
 builder.Services.AddSingleton<InMemoryStorage>();
 builder.Services.AddScoped<IWorkflowService, WorkflowService>();
 
